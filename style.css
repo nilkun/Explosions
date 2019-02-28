@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttons {
+    margin: 10px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+#colors {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+}
+.red {
+    background: red;
+}
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}

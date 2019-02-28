@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Explosion</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <canvas id="canvas" width=800 height=600></canvas>
+        </div>
+        <div id="buttons">
+            <button id="explosion">Explosion</button>
+            <button id="fallout">Nuclear Fallout</button>
+            <button id="spin">Galaxy formation</button>
+            <button id="amoeba">Amoeba</button>
+            <div id="colors">
+                <div class="red box"></div>
+                <div class="green box"></div>
+                <div class="blue box"></div>
+            </div>
+            <button>Number of particles:<br><i id="particles">0</i></button>
+            <input type="range" min="1" max="10000" value="2000" id="slider">          
+            
+        </div>
+        
+        <script type="module" src="entry.js"></script>
+    </body>
+</html>
